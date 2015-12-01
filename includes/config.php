@@ -9,9 +9,9 @@ include 'common.php'; //stores all unsightly application functions, etc.
 include 'MyAutoLoader.php'; //loads class that autoloads all classes in include folder
 
 /* use the following path settings for placing all code in one application folder */ 
-define('VIRTUAL_PATH', 'http://s585285466.onlinehome.us/flairli/retro/'); # Virtual (web) 'root' of application for images, JS & CSS files
+define('VIRTUAL_PATH', 'http://s585285466.onlinehome.us/retro/'); # Virtual (web) 'root' of application for images, JS & CSS files
 
-define('PHYSICAL_PATH', '/home/u81689187/s585285466.onlinehome.us/flairli/retro/'); # Physical (PHP) 'root' of application for file & upload reference
+define('PHYSICAL_PATH', '/home/u81689187/s585285466.onlinehome.us/retro/'); # Physical (PHP) 'root' of application for file & upload reference
 
 define('INCLUDE_PATH', PHYSICAL_PATH . 'includes/'); # Path to PHP include files - INSIDE APPLICATION ROOT
 

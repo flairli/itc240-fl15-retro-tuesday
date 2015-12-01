@@ -25,9 +25,9 @@ $sql = "select * from test_Customers";
 $title = 'Customer List/View/Pager';
 
 # END CONFIG AREA ---------------------------------------------------------- 
-
 include 'includes/header.php'; #header must appear before any HTML is printed by PHP
 ?>
+
 <h3 align="center"><?=THIS_PAGE;?></h3>
 
 <p>This page demonstrates a List/View/Pager web application.</p>
